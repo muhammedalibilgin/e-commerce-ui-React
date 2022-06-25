@@ -1,15 +1,29 @@
-import logo from "./logo.svg";
-import "./App.css";
 import SearchBar from "./components/SearchBar";
 import Activities from "./components/Activities";
+import SocialNetworks from "./components/SocialNetworks";
+
+import { MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
+import "../src/App.css";
 
 function App() {
     return (
-        <div className="App">
-            <SearchBar />
-            asdas
-            <Activities />
-        </div>
+        <MDBContainer style={{ paddingTop: "10px" }}>
+            <MDBRow>
+                <SearchBar />
+            </MDBRow>
+            <MDBRow>
+                {/* <MDBCol> */}
+                <div>
+                    <Activities />
+                </div>
+                {/* </MDBCol> */}
+            </MDBRow>
+            <MDBRow>
+                <MDBCol>
+                    <SocialNetworks />
+                </MDBCol>
+            </MDBRow>
+        </MDBContainer>
     );
 }
 
