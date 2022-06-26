@@ -1,6 +1,7 @@
 import Products from "./components/Products";
 import SocialNetworks from "./components/SocialNetworks";
 import ProductDetails from "./components/ProductDetails";
+import NavBar from "./components/NavBar";
 
 import { MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
 import "../src/App.css";
@@ -14,7 +15,7 @@ function App() {
         <MDBContainer style={{ paddingTop: "10px" }}>
             <MDBRow>
                 <MDBCol>
-                    <h1 style={{ backgroundColor: "green" }}>Nav Bar</h1>
+                    <NavBar />
                 </MDBCol>
             </MDBRow>
             <MDBRow>

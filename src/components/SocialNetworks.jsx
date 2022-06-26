@@ -10,36 +10,68 @@ const SocialNetworks = () => {
         <div>
             <MDBRow className="mb-4">
                 <MDBCol size="4" md="2" className="mb-3 d-flex justify-content-center">
-                    {" "}
-                    <MDBBtn className="mx-2" tag="a" color="success" size="lg" outline floating>
+                    <MDBBtn
+                        className="mx-2"
+                        tag="a"
+                        color="success"
+                        size="lg"
+                        floating
+                        href="http://instagram.com"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
                         <MDBIcon fab icon="instagram" />
                     </MDBBtn>
                 </MDBCol>
                 <MDBCol size="4" md="2" className="mb-3 d-flex justify-content-center">
-                    {" "}
-                    <MDBBtn floating size="lg" tag="a">
+                    <MDBBtn floating size="lg" tag="a" href="http://facebook.com" rel="noopener noreferrer" target="_blank">
                         <MDBIcon fab icon="facebook-f" />
                     </MDBBtn>
                 </MDBCol>
                 <MDBCol size="4" md="2" className="mb-3 d-flex justify-content-center">
-                    {" "}
-                    <MDBBtn className="mx-2" size="lg" tag="a" color="success" outline floating>
-                        <MDBIcon fas icon="twitter" />
+                    <MDBBtn
+                        className="mx-2"
+                        size="lg"
+                        tag="a"
+                        style={{ backgroundColor: "#55acee" }}
+                        floating
+                        href="https://twitter.com/maliblgn"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
+                        <MDBIcon fab icon="twitter" />
                     </MDBBtn>
                 </MDBCol>
                 <MDBCol size="4" md="2" className="mb-3 d-flex justify-content-center">
-                    <MDBBtn color="danger" tag="a" outline size="lg" floating>
+                    <MDBBtn color="danger" tag="a" size="lg" floating>
                         <MDBIcon fas icon="archway" />
                     </MDBBtn>
                 </MDBCol>{" "}
                 <MDBCol size="4" md="2" className="mb-3 d-flex justify-content-center">
-                    <MDBBtn className="ms-2" size="lg" tag="a" color="gray" floating>
+                    <MDBBtn
+                        className="ms-2"
+                        size="lg"
+                        tag="a"
+                        color="light"
+                        floating
+                        href="http://apple.com"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
                         <MDBIcon fab icon="apple" />
                     </MDBBtn>
                 </MDBCol>
                 <MDBCol size="4" md="2" className="mb-3 d-flex justify-content-center">
                     {" "}
-                    <MDBBtn color="dark" floating size="lg" tag="a">
+                    <MDBBtn
+                        color="dark"
+                        size="lg"
+                        tag="a"
+                        floating
+                        href="http://github.com/muhammedalibilgin"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
                         <MDBIcon fab icon="github" />
                     </MDBBtn>
                 </MDBCol>

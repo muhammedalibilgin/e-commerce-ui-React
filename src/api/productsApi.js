@@ -63,6 +63,14 @@ const products = [
         imageURL: "https://m.media-amazon.com/images/I/81+KsGb072L._AC_UY879_.jpg",
         category: "watch",
     },
+    {
+        id: 9,
+        name: "KleenGuard™ V30 Nemesis Safety Glasses (22475), Smoke Anti-Fog Lens with Black Frame, 12 Pairs / Case",
+        overview:
+            "These KleenGuard Nemesis Safety Glasses (safety sunglasses) have a black frame and smoke anti-fog lenses for outdoor use: smoke anti-fog lenses are ideal for bright, sunny days to provide glare reduction, even when you are moving between hot, cold, and humid environments KleenGuard Nemesis Smoke Anti-Fog Safety Glasses feature a sporty, flexible, lightweight design that your employees will be happy to wear; they have a stylish, sporty look and feel Meets ANSI Z87.1-plus standards for personal eye protection Polycarbonate lenses provide 99.9% UVA/ UVB/UVC protection Patented FLEX-DRY designed to be extremely flexible, to channel sweat away from the eyes, and to help prevent slippage down the nose – all for long-term comfort",
+        imageURL: "https://m.media-amazon.com/images/I/71LIzE1cnfL._SX522_.jpg",
+        category: "glasses",
+    },
 ];
 
 export default products;
