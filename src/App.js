@@ -1,7 +1,7 @@
-import Products from "./components/Products";
-import SocialNetworks from "./components/SocialNetworks";
-import ProductDetails from "./components/ProductDetails";
-import NavBar from "./components/NavBar";
+import Products from "./components/Products.jsx";
+import SocialNetworks from "./components/SocialNetworks.jsx";
+import ProductDetails from "./components/ProductDetails.jsx";
+import NavBar from "./components/NavBar.jsx";
 
 import { MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
 import "../src/App.css";

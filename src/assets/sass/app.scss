@@ -1,0 +1,15 @@
+//Base Sass
+@import "base/mixin.scss";
+@import "base/reset.scss";
+@import "base/variables.scss";
+
+body,
+html {
+    background-color: red;
+    margin: 0px;
+    padding: 0px;
+}
+
+#mytest {
+    color: $favoriteColor;
+}

@@ -28,7 +28,10 @@ const Products = () => {
                         <hr />
                         <div className="card-body">
                             <Link to={"product/" + i}>
-                                <h5 className="card-title"> {x.name} </h5>
+                                <h5 id="mytest" className="card-title">
+                                    {" "}
+                                    {x.name}{" "}
+                                </h5>
                             </Link>
                             <Link to={"product/" + i}>
                                 <p
