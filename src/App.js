@@ -2,6 +2,7 @@ import Products from "./components/Products.jsx";
 import SocialNetworks from "./components/SocialNetworks.jsx";
 import ProductDetails from "./components/ProductDetails.jsx";
 import NavBar from "./components/NavBar.jsx";
+import ProductsInCart from "./components/ProductsInCart.jsx";
 
 import { MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
 import "../src/App.css";
@@ -13,16 +14,15 @@ function App() {
 
     return (
         <MDBContainer style={{ paddingTop: "10px" }}>
-            <MDBRow>
-                <MDBCol>
-                    <NavBar />
-                </MDBCol>
-            </MDBRow>
-            <MDBRow>
+            <MDBRow style={{ marginTop: "60px" }}>
                 <Router>
+                    <MDBCol>
+                        <NavBar />
+                    </MDBCol>
                     <Routes>
                         <Route exact path="/" element={<Products />} />ı
                         <Route path="/product/:id" element={<ProductDetails />} />
+                        <Route path="/productsincart" element={<ProductsInCart />} />
                     </Routes>
                 </Router>
             </MDBRow>
