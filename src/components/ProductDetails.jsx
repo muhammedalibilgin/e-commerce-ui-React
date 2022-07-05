@@ -28,7 +28,7 @@ const ProductDetails = () => {
         <MDBContainer id="productDetails" className="mb-5">
             <MDBRow className="">
                 <MDBCol size="12" lg="4" id="firstCol">
-                    <p>Product Details:</p>
+                    <p>Product Detailss:</p>
                     <p>ID: {id} </p>
                     <p style={{ color: "red" }}> #{product?.category}</p>
                     <hr />
