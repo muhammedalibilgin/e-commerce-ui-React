@@ -20,7 +20,7 @@ function App() {
                         <NavBar />
                     </MDBCol>
                     <Routes>
-                        <Route exact path="/" element={<Products />} />ı
+                        <Route exact path="/" element={<Products />} />
                         <Route path="/product/:id" element={<ProductDetails />} />
                         <Route path="/productsincart" element={<ProductsInCart />} />
                     </Routes>

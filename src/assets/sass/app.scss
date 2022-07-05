@@ -29,11 +29,11 @@ html {
 #productDetails {
     //767px:mobile 991px:tablet
     @media (max-width: 991px) {
-        color: yellowgreen;
+        // color: yellowgreen;
         overflow: auto;
     }
     @media (min-width: 991px) {
-        color: pink;
+        // color: pink;
         height: 100vh;
     }
 

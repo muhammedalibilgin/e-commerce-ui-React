@@ -47,7 +47,7 @@ const ProductDetails = () => {
                         Start Order Now
                     </MDBBtn>
                 </MDBCol>
-                <Link to={"/"}>back</Link>
+                <Link to={"/"}>Home</Link>
             </MDBRow>
         </MDBContainer>
     );

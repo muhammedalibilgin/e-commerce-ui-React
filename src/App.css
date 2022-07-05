@@ -20,13 +20,11 @@ html {
 
 @media (max-width: 991px) {
   #productDetails {
-    color: yellowgreen;
     overflow: auto;
   }
 }
 @media (min-width: 991px) {
   #productDetails {
-    color: pink;
     height: 100vh;
   }
 }
